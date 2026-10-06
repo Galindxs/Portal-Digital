@@ -1,0 +1,27 @@
+:root{
+    --color-texto-principal: #497770;
+    --color-texto-enfasis: #1DA786;
+    --color-subtitulo: #DA3E1C;
+    --color-fondo: #CECFC1;
+}
+
+body{
+    background-color: var(--color-fondo);
+}
+.titulo-area{
+    font-family:sans-serif;
+    text-align: center;
+}
+
+.titulo-inicio{
+    color: var(--color-texto-principal);
+}
+
+.eslogan{
+    color: var(--color-subtitulo);
+}
+
+.logo{
+    border-radius: 50px;
+    border-style: hidden;
+}
