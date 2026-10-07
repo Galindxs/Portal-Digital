@@ -1,27 +1,33 @@
-:root{
+:root {
     --color-texto-principal: #497770;
     --color-texto-enfasis: #1DA786;
     --color-subtitulo: #DA3E1C;
     --color-fondo: #CECFC1;
 }
 
-body{
+body {
     background-color: var(--color-fondo);
 }
-.titulo-area{
-    font-family:sans-serif;
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.titulo-area {
+    font-family: sans-serif;
     text-align: center;
 }
 
-.titulo-inicio{
+.titulo-inicio {
     color: var(--color-texto-principal);
 }
 
-.eslogan{
+.eslogan {
     color: var(--color-subtitulo);
 }
 
-.logo{
+.logo {
     border-radius: 50px;
     border-style: hidden;
 }
