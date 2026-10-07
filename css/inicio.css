@@ -3,6 +3,11 @@
     --color-texto-enfasis: #1DA786;
     --color-subtitulo: #DA3E1C;
     --color-fondo: #CECFC1;
+    --color-barra: #E3E3D2;
+}
+
+::marker{
+    content: "";
 }
 
 body {
@@ -12,6 +17,19 @@ body {
 img{
     max-width: 100%;
     height: auto;
+}
+
+hr{
+    color: var(--color-barra);
+    border-width: 2px;
+    border-style:double;
+    border-radius: 50px;
+    margin: 0%;
+}
+
+ul{
+    border-radius: 50px;
+    margin: 8px;
 }
 
 .titulo-area {
@@ -30,4 +48,15 @@ img{
 .logo {
     border-radius: 50px;
     border-style: hidden;
+}
+
+.barra-navegacion{
+    background-color: var(--color-barra);
+    text-align: center;
+    border-radius: 15px;
+    padding: 0.25rem;
+}
+
+.nav-item{
+    margin: 8px;
 }
