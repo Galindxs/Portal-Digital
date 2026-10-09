@@ -25,7 +25,52 @@
         </div>
     </nav>
 
-    <main></main>
+    <main>
+        <section>
+            <p>Encuentre la oficina más cercana a usted en Tegucigalpa</p>
+            <div class="mapa-restringido">
+                <iframe class="mapa-restringido"
+                    src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d15478.591433243882!2d-87.1860838!3d14.097953!3m2!1i1024!2i768!4f13.1!2m1!1sagencia%20de%20viajes%20en%20novacentro%20tegucigalpa!5e0!3m2!1ses-419!2shn!4v1791583334941!5m2!1ses-419!2shn"
+                    width="600" height="450">
+                </iframe>
+            </div>
+            <br>
+
+            <p>o en San Pedro Sula</p>
+            <iframe class="mapa-restringido"
+                src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d15377.67434598561!2d-88.0355501!3d15.5156753!3m2!1i1024!2i768!4f13.1!2m1!1sagencia%20de%20viajes%20en%20novacentro%20San%20Pedro%20Sula!5e0!3m2!1ses-419!2shn!4v1791583722561!5m2!1ses-419!2shn"
+                width="600" height="450">
+            </iframe>
+        </section>
+        <br><br>
+        <section>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Consultas o comentario</legend>
+                    <div class="form-datos-p">
+                        <label for="nombreCompleto">Nombre y apellido</label>
+                        <input type="text" name="nombreCompleto" required minlength="10" maxlength="50"
+                            placeholder="Nombre y apellido">
+                    </div><br>
+                    <div>
+                        <label for="correo">Correo Electronico</label>
+                        <input type="email" name="correo">
+                    </div><br>
+                    <div>
+                        <label for="tipo-formulario">Elija una opción</label>
+                        <select name="tipo-formulario" required>
+                            <option value="consulta">Quiero hacer una consulta</option>
+                            <option value="comentario" selected>Comentario</option>
+                        </select>
+                    </div><br>
+                    <div>
+                        <textarea class="Campo-formulario" name="Campo-formulario"></textarea>
+                    </div>
+                </fieldset>
+
+            </form>
+        </section>
+    </main>
 
 </body>
 

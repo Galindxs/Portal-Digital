@@ -6,10 +6,6 @@
     --color-barra: #E3E3D2;
 }
 
-::marker{
-    content: "";
-}
-
 body {
     background-color: var(--color-fondo);
 }
@@ -59,4 +55,21 @@ ul{
 
 .nav-item{
     margin: 8px;
+}
+
+.mapa-restringido{
+    pointer-events: none;
+    display: inline-block;
+    overflow: hidden;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.campo-formulario{
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    resize: vertical;
 }
